@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <main
+      id="mainBox"
+      class="bg-gray-900 h-screen text-white flex flex-col justify-center items-center"
+    >
+      <div
+        class="calculatorBox shadow-xl shadow-black bg-gray-800 h-[80vh] w-[30vw] flex flex-col items-center rounded-xl"
+      >
+        <div
+          id="displayArea"
+          class="h-[15vh] w-[25vw] shadow-inner shadow-black mt-5 mb-5 rounded-xl bg-black relative"
+        >
+          <!-- <div class="operators absolute bottom-5 right-5 text-3xl">
+            <span>4</span>
+          </div> -->
+        </div>
+
+        <div id="buttonArea">
+          <!-- Buttons Grid -->
+          <div
+            class="grid grid-cols-4 gap-5 text-white text-xl font-medium mb-5"
+          >
+            <!-- Row 1 -->
+            <button
+              class="btn  px-5 py-3 rounded-xl shadow-sm shadow-black cursor-pointer"
+            >
+              C
+            </button>
+            <button
+              class="btn px-5 py-3 rounded-xl shadow-sm shadow-black cursor-pointer"
+            >
+              %
+            </button>
+            <button
+              class="btn px-5 py-3 rounded-xl shadow-sm shadow-black cursor-pointer"
+            >
+              /
+            </button>
+            <button
+              class="btn px-5 py-3 rounded-xl shadow-sm shadow-black cursor-pointer"
+            >
+              +
+            </button>
+
+            <!-- Row 2 -->
+            <button
+              class="btn px-5 py-3 rounded-xl shadow-sm shadow-black cursor-pointer"
+            >
+              7
+            </button>
+            <button
+              class="btn px-5 py-3 rounded-xl shadow-sm shadow-black cursor-pointer"
+            >
+              8
+            </button>
+            <button
+              class="btn px-5 py-3 rounded-xl shadow-sm shadow-black cursor-pointer"
+            >
+              9
+            </button>
+            <button
+              class="btn px-5 py-3 rounded-xl shadow-sm shadow-black cursor-pointer"
+            >
+              ×
+            </button>
+
+            <!-- Row 3 -->
+            <button
+              class="btn px-5 py-3 rounded-xl shadow-sm shadow-black cursor-pointer"
+            >
+              4
+            </button>
+            <button
+              class="btn px-5 py-3 rounded-xl shadow-sm shadow-black cursor-pointer"
+            >
+              5
+            </button>
+            <button
+              class="btn px-5 py-3 rounded-xl shadow-sm shadow-black cursor-pointer"
+            >
+              6
+            </button>
+            <button
+              class="btn px-5 py-3 rounded-xl shadow-sm shadow-black cursor-pointer"
+            >
+              -
+            </button>
+
+            <!-- Row 4 -->
+            <button
+              class="btn px-5 py-3 rounded-xl shadow-sm shadow-black cursor-pointer"
+            >
+              1
+            </button>
+            <button
+              class="btn px-5 py-3 rounded-xl shadow-sm shadow-black cursor-pointer"
+            >
+              2
+            </button>
+            <button
+              class="btn px-5 py-3 rounded-xl shadow-sm shadow-black cursor-pointer"
+            >
+              3
+            </button>
+            <button
+              class="btn px-5 py-3 rounded-xl shadow-sm shadow-black cursor-pointer row-span-2"
+            >
+              =
+            </button>
+
+            <!-- Row 5 -->
+            <button
+              class="btn px-5 py-3 rounded-xl shadow-sm shadow-black cursor-pointer col-span-2"
+            >
+              0
+            </button>
+            <button
+              class="btn px-5 py-3 rounded-xl shadow-sm shadow-black cursor-pointer"
+            >
+              .
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
